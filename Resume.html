@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script
+            src="https://kit.fontawesome.com/f5fa803926.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("9Q-kZpaqQeAV1Df5J");
+            })();
+        </script>
+    </head>
+
+    <body>
+        <header class="navigation">
+            <nav class="navbar">
+                <h2 class="nav_Logo">Rahgul.R</h2>
+                <div class="nav_menu">
+                    <i class="fas fa-bars menu_img" id="menu_img"></i>
+                    <ul class="nav_item" id="nav_item">
+                        <li class="nav_list"><a href="#home">Home</a></li>
+                        <li class="nav_list"><a href="#about">About</a></li>
+                        <li class="nav_list"><a href="#about">Skills</a></li>
+                        <li class="nav_list"><a href="#about">Projects</a></li>
+                        <li class="nav_list"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="home" id="home">
+                <article class="home_container">
+                    <div class="home_content">
+                        <h1 class="homw_head">Hi, My Name Is Rahgul.R</h1>
+                        <h3 class="designation">
+                            <span>And</span>
+                            <br />
+                            <br />
+                            I'm Full Stack Python Developer
+                        </h3>
+                        <div class="btn">
+                            <a href="./RahgulR_Resume.pdf" download>
+                                <button class="download_cv">Download CV</button>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="about" id="about">
+                <article class="about_container">
+                    <div class="about_left">
+                        <div class="about_content">
+                            <h2 class="about_title">About</h2>
+                            <p class="about_info">
+                                Looking for a challenging role in a reputable
+                                organization to utilize my technical, database,
+                                and management skills for the growth of the
+                                organization as well as to enhance my knowledge
+                                about new and emerging trends in the IT sector.
+                            </p>
+                            <div class="about_tabs">
+                                <p
+                                    class="tab_link active_link"
+                                    onclick="opentab('skills')">
+                                    Skills
+                                </p>
+                                <p
+                                    class="tab_link"
+                                    onclick="opentab('experience')">
+                                    Experience
+                                </p>
+                                <p
+                                    class="tab_link"
+                                    onclick="opentab('education')">
+                                    Education
+                                </p>
+                                <p
+                                    class="tab_link"
+                                    onclick="opentab('projects')">
+                                    Projects
+                                </p>
+                                <p class="tab_link" onclick="opentab('course')">
+                                    Course
+                                </p>
+                            </div>
+                            <div class="tab_content active_tab" id="skills">
+                                <div class="skill_tab">
+                                    <div class="skill_card">
+                                        <img
+                                            src="./images/skills/python_icon.png"
+                                            alt="Python" />
+                                        <p>Python</p>
+                                    </div>
+                                    <div class="skill_card">
+                                        <img
+                                            src="/images/skills/mysql.png"
+                                            alt="MySQL" />
+                                        <p>MySQL</p>
+                                    </div>
+                                    <div class="skill_card">
+                                        <img
+                                            src="/images/skills/html.png"
+                                            alt="Html" />
+                                        <p>Html</p>
+                                        x
+                                    </div>
+                                    <div class="skill_card">
+                                        <img
+                                            src="/images/skills/css.png"
+                                            alt="Css" />
+                                        <p>Css</p>
+                                    </div>
+                                    <div class="skill_card">
+                                        <img
+                                            src="/images/skills/js.png"
+                                            alt="JavaScript" />
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skill_card">
+                                        <img
+                                            src="/images/skills/react_js.png"
+                                            alt="React JS" />
+                                        <p>React JS</p>
+                                    </div>
+                                    <div class="skill_card">
+                                        <img
+                                            src="/images/skills/django.png"
+                                            alt="Django" />
+                                        <p>Django</p>
+                                    </div>
+                                    <div class="skill_card">
+                                        <img
+                                            src="/images/skills/flask_icon.png"
+                                            alt="Flask" />
+                                        <p>Flask</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab_content" id="experience">
+                                <div class="experience_tab">
+                                    <ul class="experience_list">
+                                        <li class="experience_card">
+                                            <p>
+                                                <span class="role"
+                                                    >JR.Software Developer</span
+                                                >
+                                                <br />
+                                                <span class="no_of_year"
+                                                    >1.5 years</span
+                                                >
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="tab_content" id="education">
+                                <div class="education_tab">
+                                    <ul class="education_list">
+                                        <li class="education_card">
+                                            <p>
+                                                <span class="field"
+                                                    >MBA (HR & Finance)</span
+                                                >
+                                                <br />
+                                                <span
+                                                    >Koshy's Group Of Management
+                                                    Studies, Bangalore
+                                                    University.
+                                                </span>
+                                                <br />
+                                                <span>Aug 2017 - Jun 2019</span>
+                                            </p>
+                                        </li>
+                                        <li class="education_card">
+                                            <p>
+                                                <span class="field"
+                                                    >B.sc Computer Science</span
+                                                >
+                                                <br />
+                                                <span
+                                                    >ST.Jude's College Of Arts
+                                                    and Science, Manonmaniam
+                                                    Sundharanar University.
+                                                </span>
+                                                <br />
+                                                <span>Aug 2017 - Jun 2019</span>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="tab_content" id="projects">
+                                <div class="project_tab">
+                                    <div class="project_card">
+                                        <img
+                                            src="./images/project/todo.png"
+                                            alt="" />
+                                        <div class="project_content">
+                                            <h3>Todo Application</h3>
+                                        </div>
+                                    </div>
+                                    <div class="project_card">
+                                        <img
+                                            src="./images/project/mobileshop.png"
+                                            alt="" />
+                                        <div class="project_content">
+                                            <h3>Mobify Application</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab_content" id="course">
+                                <div class="course_tab">
+                                    <ul class="course_list">
+                                        <li class="course_card">
+                                            <h3>Short term</h3>
+                                            <p>
+                                                <span class="role"
+                                                    >Full Stack Python
+                                                    developement</span
+                                                >
+                                                <br />
+                                                <small>
+                                                    Scope India Training
+                                                    center,<br />
+                                                    Trivandram.
+                                                </small>
+                                                <br />
+                                                <small
+                                                    >Mar 2021 - Jun 2021</small
+                                                >
+                                            </p>
+                                        </li>
+                                        <li class="course_card">
+                                            <h3>Internship</h3>
+                                            <p>
+                                                <span class="role">
+                                                    Full Stack Python developer
+                                                </span>
+                                                <br />
+                                                <small>
+                                                    Doctosmart Enterprises Pvt
+                                                    Ltd,<br />
+                                                    Cyber park,kozhicode.
+                                                </small>
+                                                <br />
+                                                <small
+                                                    >May 2023 - Jun 2023</small
+                                                >
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_right">
+                        <img src="./images/person1.png" alt="" srcset="" />
+                    </div>
+                </article>
+            </section>
+
+            <section class="contact" id="contact">
+                <article class="contact_container">
+                    <div class="contact_left">
+                        <h2 class="contact_title">Contact Me</h2>
+                        <div class="contact_detail">
+                            <img
+                                src="./images/social media/gmail.png"
+                                alt=""
+                                srcset="" />
+                            <p>rahgulleo@gmail.com</p>
+                        </div>
+                        <div class="contact_detail">
+                            <img src="./images/social media/phone.png" alt="" />
+                            <p>+91-7708409731</p>
+                        </div>
+                        <div class="contact_detail">
+                            <img
+                                src="./images/social media/location.png"
+                                alt=""
+                                srcset="" />
+                            <p>gitHub</p>
+                        </div>
+                        <div class="contact_detail">
+                            <img
+                                src="./images/social media/github.png"
+                                alt="" />
+                            <p>gitHub</p>
+                        </div>
+                    </div>
+                    <div class="contact_right">
+                        <form
+                            action=""
+                            id="contact_form"
+                            class="contact_form"
+                            method="post">
+                            <div class="input_field">
+                                <input
+                                    class="name"
+                                    id="name"
+                                    name="name"
+                                    type="text"
+                                    value=""
+                                    placeholder="Enter the name ..." />
+                                <input
+                                    id="email"
+                                    name="email"
+                                    class="email"
+                                    type="email"
+                                    value=""
+                                    placeholder="Enter the email ..." />
+                            </div>
+                            <div class="comment_box">
+                                <textarea
+                                    class="comment"
+                                    name="comment"
+                                    id="comment"
+                                    cols="30"
+                                    rows="10"
+                                    placeholder="Write a comment ...."></textarea>
+                            </div>
+                            <button class="submit" id="send_mail">
+                                Submit
+                            </button>
+                        </form>
+                        <div class="notification" id="notification">
+                            <p>Successfully form submitted ....</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer_container">
+                <p class="copy_right">@Copy Right - 2023</p>
+                <p class="creator">Created By - RAHGUL.R</p>
+            </div>
+        </footer>
+
+        <script src="./scripts.js"></script>
+    </body>
+</html>
